@@ -55,20 +55,50 @@ nav{
     float: right;
 }
 
+
 header{
     width: 100%;
     height: 600px;
-    background-color: lightgray;
-    padding-top: 150px;
-    padding-left: 10%;
-    padding-right: 10%;
+    background-image: url(../assets/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
+.overlay{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0,0.3);
+    padding-top: 150px;
+    padding-left: 10%;
+
+}
+
+header h3,h2{
+    color: #f4f4f4;
+}
+
+
+/*Button in header default states*/
 .play-button{
     height: 40px;
     background-color: #f4f4f4;
+    color: #1F4A5D;
     border-radius: 20px;
-    border: 2px solid #2b2b2b;
+    border: 2px solid #1F4A5D;
+    margin-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    float: left;
+    margin-top: 20px;
+}
+
+.shuffle-button{
+    height: 40px;
+    background-color: #f4f4f4;
+    color: #1F4A5D;
+    border-radius: 20px;
+    border: 2px solid #1F4A5D;
     margin-right: 20px;
     padding-left: 40px;
     padding-right: 40px;
@@ -81,13 +111,32 @@ header{
     height: 40px;
     width: 40px;
     margin: 0 auto;
-    background-color: #f4f4f4;
-    border: 2px solid #2b2b2b;
+    background-color: #BBDFDD;
+    color: #1F4A5D;
+    border: 2px solid #1F4A5D;
     border-radius: 50%;
     float: left;
     margin-top: 20px;
 }
 
+/*Button in header hover states*/
+.play-button:hover{
+    background-color: #2B6267;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.shuffle-button:hover{
+    background-color: #2B6267;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.like-button:hover{
+    background-color: #2B6267;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+/*featured artist section of page*/
 .col-box{
     width:90% ;
     height: 480px;
@@ -98,13 +147,13 @@ header{
 
 .col-box h2,h1{
     color: #f4f4f4;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 .col-box p{
     width: 80%;
     margin-top: 20px;
     color: #f4f4f4;
-    padding-left: 10%;
+    padding-left: 15%;
 }
 
 .col-video{
@@ -116,3 +165,42 @@ header{
     background-color: gray;
 }
 
+.next-button{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #BBDFDD;
+    color: #1F4A5D;
+    border: 2px solid #1F4A5D;
+    border-radius: 50%;
+    float: left;
+    margin-top: 120px;
+    margin-left: 80%;
+}
+
+.prev-button{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #BBDFDD;
+    color: #1F4A5D;
+    border: 2px solid #1F4A5D;
+    border-radius: 50%;
+    float: right;
+    margin-right: 7%;
+    margin-top: 120px;
+}
+
+
+.releases{
+    margin-top: 80px;
+}
+
+
+.cards{
+    width: 90%;
+    height: 240px;
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color: lightgrey;
+}
