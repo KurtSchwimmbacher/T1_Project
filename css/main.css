@@ -191,6 +191,17 @@ header h3,h2{
     margin-top: 120px;
 }
 
+.next-button:hover{
+    background-color: #2B6267;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.prev-button:hover{
+    background-color: #2B6267;
+    color: #f4f4f4;
+    cursor: pointer;
+}
 
 .releases{
     margin-top: 80px;
