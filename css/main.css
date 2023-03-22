@@ -209,16 +209,51 @@ header h3,h2{
     cursor: pointer;
 }
 
-.releases{
+.rec-releases{
+    margin-left: -5%;
     margin-top: 80px;
 }
 
+.pop-releases{
+    margin-left: -5%;
+    margin-top: 80px;
+}
 
 .cards{
-    width: 90%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Rcards{
+    width: 100%;
     height: 240px;
     margin-top: 20px;
-    margin-left: 5%;
     background-color: lightgrey;
 }
 
+.Pcards{
+    width: 100%;
+    height: 240px;
+    margin-top: 20px;
+    background-color: lightgrey;
+}
+
+footer{
+    margin-top: 40px;
+    width: 100%;
+    height: 180px;
+    background-color: #2B6267;
+    padding-top: 60px;
+    padding-left: 7.5%;
+}
+
+footer h5{
+    color: #f4f4f4;
+    float: left;
+}
+
+footer p{
+    color: #f4f4f4;
+    float: right;
+    padding-right: 7.5%;
+}
