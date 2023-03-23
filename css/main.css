@@ -1,14 +1,13 @@
 nav{
     width: 100%;
     height: 80px;
-    background-color: gray;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 20px;
 }
 
 .logo{
-    color: #f4f4f4;
+    color: #2b2b2b;
     float: left;
 }
 
@@ -319,4 +318,156 @@ select{
     border-radius: 20px;
     margin-bottom: 5px;
     margin-left: 305px;
+}
+
+/*===========================================================================*/
+/*Playlist page css*/
+.mp-title{
+    margin-top: 85px;
+    margin-left: 10%;
+}
+
+.col-mix{
+    width: 470px;
+    height: 470px;
+    background-color: lightgray;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+.col-mix h1{
+    text-align: center;
+    font-weight: bold;
+    color: #f4f4f4;
+    padding-top: 170px;
+    margin-left: -90px;
+}
+
+.playlist-logo{
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-left: 200px;
+    padding-top: 5px;
+}
+
+.button-group{
+    margin-top: 150px;
+    margin-left: -320px;
+}
+
+.mix-btn, .fav-btn{
+    margin-right: 60px;
+    float: left;
+}
+
+.fav-btn{
+    font-weight: bold;
+}
+
+.song-container{
+    width: 100%;
+    height: 380px;
+    margin-left: -310px;
+}
+
+.song-banner{
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.banner-el{
+    margin-right: 60px;
+    float: left;
+}
+
+.banner-st{
+    margin-right: 180px;
+    float: left;
+}
+
+.banner-al{
+    margin-right: 140px;
+    float: left;
+}
+
+.song{
+    margin-top: 30px;
+}
+
+.bot-border{
+    width: 75%;
+    padding-top: 35px;
+    margin-bottom: -20px;
+    border-bottom: 2px solid #2b2b2b;
+}
+
+.song-el{
+    padding-top: 12px;
+    float: left;
+    margin-right: 60px;
+}
+
+.song-t{
+    float: left;
+    margin-right: 172px;
+}
+
+.song-al{
+    padding-top: 12px;
+    float: left;
+    margin-right: 100px;
+}
+
+.song-d{
+    padding-top: 12px;
+    float: left;
+    margin-right: 90px;
+}
+
+.song-ic{
+    padding-top: 12px;
+    float: left;
+    margin-right: 60px;
+}
+
+
+/*================================================================================*/
+/*footer playlist page*/
+
+.song-player{
+    width: 100%;
+    height: 200px;
+    margin-top: 140px;
+    background-color: #f4f4f4;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.song-image{
+    height: 70px;
+    width: 70px;
+    margin-top: 15px;
+    background-color: lightgray;
+    float: left;
+}
+.song-text{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.footP-btn{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    margin-left: 500px;
+    float: left;
 }
