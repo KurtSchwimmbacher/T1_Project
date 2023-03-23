@@ -257,3 +257,66 @@ footer p{
     float: right;
     padding-right: 7.5%;
 }
+
+.col-info{
+    width: 80%;
+    height: 450px;
+    background-color: lightgrey;  
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+.col-form{
+    width: 80%;
+    height: 450px;
+    background-color: lightgrey;
+    margin-top: 100px;
+}
+
+form{
+    height: 450px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #2b2b2b;
+    color: #f4f4f4;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.input-el{
+    width: 95%;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.input-tf{
+    width: 95%;
+    height: 100px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-top: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+select{
+    width: 95% !important;
+}
+
+.input-btn{
+    width: 50%;
+    height: 50px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-left: 305px;
+}
