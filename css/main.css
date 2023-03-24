@@ -1,3 +1,7 @@
+/*============================================================================*/
+/*Universal Styling*/
+
+/*Nav styling*/
 nav{
     width: 100%;
     height: 80px;
@@ -6,7 +10,18 @@ nav{
     padding-top: 20px;
 }
 
-.logo{
+
+.logo-img{
+    height: 47px;
+    width: 47px;
+    border: 3px solid #2b2b2b;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+.logo-txt{
     color: #2b2b2b;
     float: left;
 }
@@ -60,13 +75,15 @@ ul a{
     float: right;
 }
 
-
+/*header styling*/
 header{
     width: 100%;
     height: 600px;
-    background-image: url(../assets/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
+    margin-top: -80px;
+    /*background-image: url(../assets/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
+    background-color: lightgray;
 }
 
 .overlay{
@@ -140,6 +157,8 @@ header h3,h2{
     color: #f4f4f4;
     cursor: pointer;
 }
+
+
 
 /*featured artist section of page*/
 .col-box{
