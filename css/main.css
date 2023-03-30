@@ -10,12 +10,9 @@ nav{
     padding-top: 30px;
 }
 
-
-.logo-img{
+.logo-img img{
     height: 47px;
     width: 47px;
-    border: 3px solid #f4f4f4;
-    border-radius: 50%;
     float: left;
     text-align: center;
     margin-right: 10px;
@@ -47,10 +44,6 @@ nav{
     margin-right: 40px;
     padding-top: 5px;
     float: left;
-}
-
-ul a{
-    text-decoration: none;
 }
 
 .active{
@@ -88,6 +81,14 @@ ul a{
     margin-right: 20px;
     float: right;
 }
+
+/*nav bar about page*/
+.about{
+    background-color: #2b2b2b;
+}
+
+/*nav ending ===========================================*/
+
 
 /*header styling*/
 header{
@@ -138,7 +139,6 @@ header h2{
     float: left;
     font-size: 20px;
 }
-
 .shuffle-button{
     height: 70px;
     width: 255px;
@@ -154,7 +154,6 @@ header h2{
     float: left;
     font-size: 20px;
 }
-
 .like-button{
     height: 70px;
     width: 70px;
@@ -181,7 +180,7 @@ header h2{
 }
 
 
-
+/*==========================================================*/
 /*featured artist section of page*/
 .col-box{
     width:90% ;
@@ -211,8 +210,8 @@ header h2{
 }
 
 .prev-button{
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
     border-radius: 50%;
     float: left;
@@ -221,15 +220,13 @@ header h2{
 }
 
 .next-button{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     margin: 0 auto;
-    color: #1F4A5D;
-    border: 2px solid #1F4A5D;
     border-radius: 50%;
     float: right;
     margin-top: 20%;
-    margin-right:30px;
+    margin-right: 20px;
 }
 
 .next-button:hover{
@@ -244,67 +241,62 @@ header h2{
     cursor: pointer;
 }
 
-.rec-releases{
-    margin-left: -5%;
+/*=========================================================*/
+/*Recent Releases Section*/
+.releases-title{
     margin-top: 80px;
-}
-
-.pop-releases{
-    margin-left: -5%;
-    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 10%;
 }
 
 .cards{
+    margin-top: 80px;
     padding-left: 10%;
     padding-right: 10%;
+    margin-bottom: 20%;
 }
 
 .Rcards{
-    width: 100%;
-    height: 240px;
-    margin-top: 20px;
-    background-color: lightgrey;
-    padding-top: 170px;
+    width: 277px;
+    height: 277px;
+    /*background-image: url(../assets/albumCovers/The\ Devil\ Wears\ Prada\ -\ Reach.png);
+    background-position: center;
+    background-size: cover;*/
+    background-color: lightgray;
 }
 
-.play{
+.rc-overlay{
+    width: 277px;
+    height: 197px;
+    margin-top: -15px;
+    padding-top: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rc-icon{
     width: 70px;
     height: 70px;
-    border-radius: 50%;
-    margin-left: 37%;
-    margin-top: -40%;
-    margin-bottom: 15%;
-    background-image: url(../assets/play_icon.svg);
+    background-color: crimson;
+    border-radius: 35px;
+    margin: 0 auto;
 }
 
-.Rcard-info{
-    width: 100%;
-    height: 70px;
-    background-color: rgb(0, 0, 0,0.6);
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.rc-content{
+    width: 277px;
+    height: 80px;
+    background-color: crimson;
+    margin-top: 47px;
     color: white;
+    padding-left: 25px;
+    padding-top: 9px;
+    font-family: sans-serif;
+    text-align: left;
 }
 
-.like{
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-image: url(../assets/heart_icon_smal.svg);
-    background-size: cover;
-    background-position: center;
-    margin-top: -20px;
-    float: right;
+.rc-content h3,p{
+    margin: 0 !important;
 }
 
-.Pcards{
-    width: 100%;
-    height: 240px;
-    margin-top: 20px;
-    background-color: lightgrey;
-    padding-top: 170px;
-}
 
 footer{
     margin-top: 40px;
