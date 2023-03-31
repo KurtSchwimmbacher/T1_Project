@@ -10,7 +10,7 @@ nav{
     padding-top: 30px;
 }
 
-.logo-img img{
+.nav-logoImg img{
     height: 47px;
     width: 47px;
     float: left;
@@ -18,7 +18,7 @@ nav{
     margin-right: 10px;
 }
 
-.logo-txt{
+.nav-logoTxt{
     color: #f4f4f4;
     float: left;
     padding-top: 5px;
@@ -93,16 +93,16 @@ nav{
 /*header styling*/
 header{
     width: 100%;
-    height: 780px;
+    height: 900px;
     margin-top: -120px;
-    background-image: url(../assets/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
+    background-image: url(../assets/images/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.overlay{
+.header-overlay{
     width: 100%;
-    height: 780px;
+    height: 900px;
     background-color: rgb(0, 0, 0,0.3);
     padding-top: 15%;
     padding-left: 10%;
@@ -111,49 +111,32 @@ header{
 
 header h3{
     color: #f4f4f4;
-    font-size: 45px;
+    font-size: 36px;
 }
 
 header h2{
     color: #f4f4f4;
-    font-size: 80px;
+    font-size: 72px;
 }
 
 
 /*Button in header default states*/
 .headBtn-group{
     margin-top: 70px;
+    font-size: 24px;
 }
-.play-button{
+.play-button, .shuffle-button{
+    width: 225px;
     height: 70px;
-    width: 255px;
-    text-align: center;
     background-color: #f4f4f4;
-    color: #1F4A5D;
-    border-radius: 70px;
     border: 2px solid #1F4A5D;
-    margin-right: 2%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 18px;
-    float: left;
-    font-size: 20px;
-}
-.shuffle-button{
-    height: 70px;
-    width: 255px;
+    border-radius: 50px;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #1F4A5D;
-    border-radius: 70px;
-    border: 2px solid #1F4A5D;
-    margin-right: 2%;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 18px;
+    padding-top: 15px;
+    margin-right: 20px;
     float: left;
-    font-size: 20px;
 }
+
 .like-button{
     height: 70px;
     width: 70px;
@@ -314,6 +297,14 @@ header h2{
     padding-top: 9px;
     font-family: sans-serif;
 }
+.rc-content p{
+
+    font-size: 12px;
+}
+.rc-contnet h5{
+
+    font-size: 18px;
+}
 
 .rc-content img{
     height: 40px;
@@ -323,9 +314,6 @@ header h2{
     margin-top: -47px;
 }
 
-.rc-content h4,p{
-    margin: 0 !important;
-}
 
 /*=========================================================*/
 /*Popular Albums Section*/
@@ -528,6 +516,13 @@ select{
 .mp-title{
     margin-top: 85px;
 }
+.playlists{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
 
 .col-mix{
     width: 470px;
