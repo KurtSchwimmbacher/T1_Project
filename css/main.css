@@ -527,7 +527,6 @@ select{
 /*Playlist page css*/
 .mp-title{
     margin-top: 85px;
-    margin-left: 10%;
 }
 
 .col-mix{
@@ -535,7 +534,6 @@ select{
     height: 470px;
     background-color: lightgray;
     margin-top: 50px;
-    margin-left: 10%;
 }
 
 .col-mix h1{
