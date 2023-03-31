@@ -298,7 +298,8 @@ header h2{
     font-family: sans-serif;
 }
 .rc-content p{
-
+    margin: 0;
+    margin-left: -38px;
     font-size: 12px;
 }
 .rc-contnet h5{
@@ -327,6 +328,55 @@ header h2{
 .Pcards{
     width: 277px;
     height: 277px;
+    background-image: url(../assets/albumCovers/carbonised.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards2{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/albumCovers/pain_remains.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards3{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/albumCovers/doomswitch.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards4{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/albumCovers/aviana.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards5{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/albumCovers/death_below.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards6{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/albumCovers/The\ Devil\ Wears\ Prada\ -\ Reach.png);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards7{
+    width: 277px;
+    height: 277px;
+    background-image: url(../assets/albumCovers/The\ Devil\ Wears\ Prada\ -\ Reach.png);
+    background-position: center;
+    background-size: cover;
+}
+.Pcards8{
+    width: 277px;
+    height: 277px;
     background-image: url(../assets/albumCovers/The\ Devil\ Wears\ Prada\ -\ Reach.png);
     background-position: center;
     background-size: cover;
@@ -342,6 +392,7 @@ footer{
 }
 
 footer h6{
+    font-size: 18px;
     font-weight: bold;
     color: #2b2b2b;
     float: left;
