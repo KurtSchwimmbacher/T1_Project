@@ -590,14 +590,21 @@ select{
 
 .playlist-songs{
     width: 100%;
-
+    margin-left: 140px;
 }
 
 .col-mix{
     width: 470px;
     height: 470px;
-    background-color: lightgray;
+    background-image: url(../assets/images/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
+    background-position: center;
+    background-size: cover;
     margin-top: 50px;
+}
+.play-overlay{
+    width: 470px;
+    height: 470px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .col-mix h1{
@@ -639,11 +646,14 @@ select{
 .fav-btn{
     font-weight: bold;
 }
+.fav-btn:hover, .mix-btn:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
 
 .song-container{
     width: 100%;
     height: 500px;
-    background-color: lightgray;
 }
 
 .song-banner{
@@ -671,42 +681,78 @@ select{
     margin-top: 30px;
 }
 
+.song-act{
+    margin-top: 30px;
+    font-weight: bold;
+}
+
 .bot-border{
-    width: 75%;
+    width: 85%;
     padding-top: 35px;
     margin-bottom: -20px;
     border-bottom: 2px solid #2b2b2b;
 }
 
 .song-el{
+    text-align: center;
+    width: 20px;
+    font-size: 14px;
     padding-top: 12px;
     float: left;
-    margin-right: 60px;
+    margin-right: 32px;
+}
+.song-active{
+    width: 20px;
+    padding-top: 12px;
+    float: left;
+    margin-right: 30px;
 }
 
 .song-t{
+    text-align: center;
+    width: 110px;
+    font-size: 12px;
     float: left;
-    margin-right: 172px;
+    margin-right: 135px;
+}
+.song-t strong{
+    font-size: 14px;
 }
 
 .song-al{
+    text-align: center;
+    width: 110px;
+    font-size: 12px;
     padding-top: 12px;
     float: left;
-    margin-right: 100px;
+    margin-right: 90px;
 }
-
-.song-d{
+.song-actAl{
+    text-align: center;
+    width: 110px;
+    font-size: 12px;
     padding-top: 12px;
     float: left;
     margin-right: 90px;
 }
 
-.song-ic{
+.song-d{
+    text-align: center;
+    width: 110px;
+    font-size: 12px;
     padding-top: 12px;
+    float: left;
+    margin-right: 20px;
+}
+
+.song-ic{
+    padding-top: 5px;
     float: left;
     margin-right: 60px;
 }
-
+.song-ic:hover{
+    cursor: pointer;
+}
 
 /*================================================================================*/
 /*footer playlist page*/
@@ -751,7 +797,9 @@ select{
     height: 70px;
     width: 70px;
     margin-top: 15px;
-    background-color: lightgray;
+    background-image: url(../assets/albumCovers/architects.jpg);
+    background-position: center;
+    background-size: cover;
     float: left;
 }
 .song-text{
@@ -759,28 +807,28 @@ select{
     margin-left: 20px;
     margin-top: 15px;
 }
+.song-text h4{
+    font-size: 24px;
+}
+.song-text h6{
+    font-size: 14px;
+}
 
 .player-buttons{
     margin-left: 500px;
 }
 
-.footP-btn{
+.footP-btn img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #2b2b2b;
-    color: white;
-    text-align: center;
     float: left;
 }
 
-.footPr-btn{
+.footPr-btn img{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    border: 2px solid #2b2b2b;
-    color: white;
-    text-align: center;
     margin-top: 25px;
     margin-left: 30px;
     margin-right: 30px;
@@ -788,6 +836,7 @@ select{
 }
 
 .time-played{
+    font-size: 18px;
     margin-top: 35px;
     margin-right: 40px;
     float: right;
@@ -798,7 +847,7 @@ select{
     height: 40px;
     border-radius: 50%;
     border: 2px solid #2b2b2b;
-    color: white;
+    color: #2b2b2b;
     text-align: center;
     margin-top: 25px;
     margin-right: 122px;

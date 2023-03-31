@@ -48,13 +48,13 @@
     
 
     <div class="container-fluid"> <!--Bootstrap Container-->
-
         <div class="row playlist">
             <div class="col-4">
                 <h3 class="mp-title">
                     My Playlists
                 </h3>
-                <div class="col-mix">
+                <div class="play-overlay">
+                    <div class="col-mix">
                     <h1>
                         Favourites
                     </h1>
@@ -66,49 +66,49 @@
                     </div>
                 </div>
             </div>
+                
+            </div>
     
-                <div class="col-8">
-                    <div class="playlist-songs">
-                        <div class="button-group">
-                            <div class="fav-btn">
-                                <p>My Favourites</p>
-                            </div>
-                            <div class="mix-btn">
-                                <p>Classic Mix</p>
-                            </div>
-                            <div class="mix-btn">
-                                <p>Suggestions Mix</p>
-                            </div>
+            <div class="col-8">
+                <div class="playlist-songs">
+                    <div class="button-group">
+                        <div class="fav-btn">
+                            <p>My Favourites</p>
                         </div>
-        
+                        <div class="mix-btn">
+                            <p>Classic Mix</p>
+                        </div>
+                        <div class="mix-btn">
+                            <p>Suggestions Mix</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="song-container">
+                        <div class="song-banner">
+                            <div class="banner-el">#</div>
+                            <div class="banner-st">Song Title</div>
+                            <div class="banner-al">Album</div>
+                            <div class="banner-el">Duration</div>
+                        </div>
                         <br>
-        
-                        <div class="song-container">
-                            <div class="song-banner">
-                                <div class="banner-el">#</div>
-                                <div class="banner-st">Song Title</div>
-                                <div class="banner-al">Album</div>
-                                <div class="banner-el">Duration</div>
+                        <div class="song-list">
+                            <div class="song">
+                                <div class="song-el">1</div>
+                                <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
+                                <div class="song-al">Album Name</div>
+                                <div class="song-d">2:54</div>
+                                <div class="song-ic"><strong>...</strong></div>
                             </div>
-            
-                            <br>
-            
-                            <div class="song-list">
-                                <div class="song">
-                                    <div class="song-el">1</div>
-                                    <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
-                                    <div class="song-al">Album Name</div>
-                                    <div class="song-d">2:54</div>
-                                    <div class="song-ic">icon</div>
-                                </div>
-                                <br>
-                                <div class="bot-border"></div>
-                                <div class="song">
-                                    <div class="song-el">2</div>
-                                    <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
-                                    <div class="song-al">Album Name</div>
-                                    <div class="song-d">2:54</div>
-                                    <div class="song-ic">icon</div>
+                        <br>
+                        <div class="bot-border"></div>
+                                <div class="song-act">
+                                    <div class="song-active">
+                                        <img src="../assets/icons/currently_playing_icon.svg">
+                                    </div>
+                                    <div class="song-t"><strong>Nihilist</strong><br>Architects</div>
+                                    <div class="song-actAl">All Our Gods have abandoned us</div>
+                                    <div class="song-d">4:04</div>
+                                    <div class="song-ic"><strong>...</strong></div>
                                 </div>
                                 <br>
                                 <div class="bot-border"></div>
@@ -117,7 +117,7 @@
                                     <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
                                     <div class="song-al">Album Name</div>
                                     <div class="song-d">2:54</div>
-                                    <div class="song-ic">icon</div>
+                                    <div class="song-ic"><strong>...</strong></div>
                                 </div>
                                 <br>
                                 <div class="bot-border"></div>
@@ -126,7 +126,7 @@
                                     <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
                                     <div class="song-al">Album Name</div>
                                     <div class="song-d">2:54</div>
-                                    <div class="song-ic">icon</div>
+                                    <div class="song-ic"><strong>...</strong></div>
                                 </div>
                                 <br>
                                 <div class="bot-border"></div>
@@ -135,7 +135,7 @@
                                     <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
                                     <div class="song-al">Album Name</div>
                                     <div class="song-d">2:54</div>
-                                    <div class="song-ic">icon</div>
+                                    <div class="song-ic"><strong>...</strong></div>
                                 </div>
                                 <br>
                                 <div class="bot-border"></div>
@@ -144,7 +144,7 @@
                                     <div class="song-t"><strong>SONG TITLE</strong><br> Artist Name</div>
                                     <div class="song-al">Album Name</div>
                                     <div class="song-d">2:54</div>
-                                    <div class="song-ic">icon</div>
+                                    <div class="song-ic"><strong>...</strong></div>
                                 </div>
                                 <br>
                                 <div class="bot-border"></div>
@@ -152,8 +152,7 @@
                         </div>
                         
                     </div>
-                </div>
-            
+            </div>
         </div>
 
     </div> <!--Bootstrap Container-->
@@ -171,22 +170,32 @@
             <div class="song-image"></div>
             <div class="song-text">
                 <h4>
-                    SONG TITLE
+                    Nihilist
                 </h4>
                 <h6>
-                    Artist
+                    Architects
                 </h6>
             </div>
         </div>
 
         <div class="player-buttons">
-            <div class="footPr-btn">@</div>
-            <div class="footP-btn">@</div>
-            <div class="footPr-btn">@</div>
+            <div class="footPr-btn">
+                <img src="../assets/icons/previous_icon.svg">
+            </div>
+            <div class="footP-btn">
+                <img src="../assets/icons/play_icon.svg">
+            </div>
+            <div class="footPr-btn">
+                <img src="../assets/icons/next_icon.svg">
+            </div>
         </div>
 
         <div class="extras-sec">
-            <div class="foot-settings">@</div>
+            <div class="foot-settings">
+                <strong>.</strong>
+                <strong>.</strong>
+                <strong>.</strong>
+            </div>
             <div class="time-played">01:12</div>
         </div>
     </footer>
