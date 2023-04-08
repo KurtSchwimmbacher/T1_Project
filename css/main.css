@@ -81,10 +81,6 @@ nav{
     float: right;
 }
 
-/*nav bar about page*/
-.about{
-    background-color: #2b2b2b;
-}
 
 /*nav ending ===========================================*/
 
@@ -229,7 +225,7 @@ header h2{
     margin-top: 80px;
     margin-bottom: 40px;
     margin-left: 10%;
-    color: #f4f4f4;
+    color: #f7e280;
 }
 
 .cards{
@@ -255,7 +251,7 @@ header h2{
 .Rcards3{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/The_Death_of_Peace_of_Mind_Bad_Omens.png);
+    background-image: url(../assets/albumCovers/Spiritbox_EternalBlue.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -315,6 +311,13 @@ header h2{
     margin-top: -47px;
 }
 
+.rc-content img:hover{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #f7e280;
+}
 
 /*=========================================================*/
 /*Popular Albums Section*/
@@ -322,7 +325,7 @@ header h2{
     margin-top: 80px;
     margin-bottom: 40px;
     margin-left: 10%;
-    color: #f4f4f4;
+    color: #f7e280;
 }
 
 
@@ -408,6 +411,14 @@ footer{
     height: 50px;
     float: right;
     margin-right: 10px;
+}
+
+.social-y:hover,.social-f:hover,.social-t:hover,.social-i:hover{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #f7e280;
 }
 
 .social-f{
@@ -501,7 +512,7 @@ form{
     height: 575px;
     width: 100%;
     margin: 0 auto;
-    border: 2px solid #2B6267;
+    border: 2px solid #f7e280;
     border-radius: 10px;
     color: #f4f4f4;
     padding-left: 5%;
@@ -545,7 +556,7 @@ select{
     margin-left: 240px;
 }
 .input-btn:hover{
-    background-color: #2B6267;
+    background-color: #f7e280;
 }
 
 /*===========================================================================*/
@@ -553,7 +564,7 @@ select{
 .mp-title{
     font-size: 24px;
     margin-top: 85px;
-    color: #f4f4f4;
+    color: #f7e280;
 }
 
 .playlist{
@@ -571,7 +582,7 @@ select{
 .col-mix{
     width: 470px;
     height: 470px;
-    background-image: url(../assets/images/REXYaUHt5RqbNWeqPRtSwc-1200-80.jpg);
+    background-image: url(../assets/albumCovers/Spiritbox_EternalBlue.jpg);
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -616,6 +627,7 @@ select{
 .mix-btn, .fav-btn{
     margin-right: 60px;
     float: left;
+    color: #f7e280;
 }
 
 .fav-btn{
@@ -665,7 +677,7 @@ select{
     width: 85%;
     padding-top: 35px;
     margin-bottom: -20px;
-    border-bottom: 2px solid #f4f4f4;
+    border-bottom: 2px solid #f7e280;
 }
 
 .song-el{
@@ -744,14 +756,13 @@ select{
     width: 93%;
     height: 10px;
     border-bottom: 5px solid lightgray;
-
     margin-top: -40px;
     margin-bottom: 40px;
 }
 .played{
     width: 30%;
     height: 10px;
-    border-bottom: 5px solid #2B6267;
+    border-bottom: 5px solid #f7e280;
     margin-right: 10%;
     margin-top: -50px;
     margin-bottom: 40px;
@@ -761,7 +772,7 @@ select{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #2B6267;
+    background-color: #f7e280;
     margin-top: -57px;
     margin-left: 29%;
     margin-bottom: 40px;
@@ -781,6 +792,7 @@ select{
     float: left;
     margin-left: 20px;
     margin-top: 15px;
+    color: #f7e280;
 }
 .song-text h4{
     font-size: 24px;
@@ -790,7 +802,7 @@ select{
 }
 
 .player-buttons{
-    margin-left: 500px;
+    margin-left: 450px;
 }
 
 .footP-btn img{
@@ -815,16 +827,17 @@ select{
     margin-top: 35px;
     margin-right: 40px;
     float: right;
+    color: #f7e280;
 }
 
 .foot-settings{
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    border: 2px solid #f4f4f4;
-    color: #f4f4f4;
-    text-align: center;
     margin-top: 25px;
     margin-right: 122px;
     float: right;
+}
+
+.foot-settings:hover{
+    cursor: pointer;
 }
