@@ -291,6 +291,10 @@ header h2{
     margin: 0 auto;
 }
 
+.rc-icon:hover{
+    cursor: pointer;
+}
+
 .rc-content{
     width: 277px;
     height: 70px;
