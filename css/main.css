@@ -109,6 +109,7 @@ header{
 header h3{
     color: #f7e280;
     font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header h2{
@@ -180,6 +181,7 @@ header h2{
 .col-box p{
     width: 80%;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
     color: #f4f4f4;
     padding-left: 15%;
 }
@@ -198,7 +200,7 @@ header h2{
     margin: 0 auto;
     border-radius: 50%;
     float: left;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 80%;
 }
 
@@ -208,7 +210,7 @@ header h2{
     margin: 0 auto;
     border-radius: 50%;
     float: right;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-right: 20px;
 }
 
@@ -303,6 +305,7 @@ header h2{
     margin: 0;
     margin-left: -38px;
     font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
 }
 .rc-content h5{
     width: 207px;
@@ -333,6 +336,7 @@ header h2{
     margin-bottom: 40px;
     margin-left: 10%;
     color: #f7e280;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 
