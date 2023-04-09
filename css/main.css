@@ -252,7 +252,7 @@ header h2{
 .Rcards2{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/sleep\ token.jpg);
+    background-image: url(../assets/albumCovers/granite.png);
     background-position: center;
     background-size: cover;
 }
@@ -266,7 +266,7 @@ header h2{
 .Rcards4{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/download.jpg);
+    background-image: url(../assets/albumCovers/disparity.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -343,7 +343,7 @@ header h2{
 .Pcards1{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/carbonised.jpg);
+    background-image: url(../assets/albumCovers/carbonised.png);
     background-position: center;
     background-size: cover;
 }
@@ -357,14 +357,14 @@ header h2{
 .Pcards3{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/doomswitch.jpg);
+    background-image: url(../assets/albumCovers/doomswitch.png);
     background-position: center;
     background-size: cover;
 }
 .Pcards4{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/aviana.jpg);
+    background-image: url(../assets/albumCovers/corporation.png);
     background-position: center;
     background-size: cover;
 }
@@ -378,7 +378,7 @@ header h2{
 .Pcards6{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/heretic.jpg);
+    background-image: url(../assets/albumCovers/bury_tomorrow.png);
     background-position: center;
     background-size: cover;
 }
@@ -392,7 +392,7 @@ header h2{
 .Pcards8{
     width: 277px;
     height: 277px;
-    background-image: url(../assets/albumCovers/alias.jpg);
+    background-image: url(../assets/albumCovers/alias.png);
     background-position: center;
     background-size: cover;
 }
